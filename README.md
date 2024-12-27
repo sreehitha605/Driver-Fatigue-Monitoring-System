@@ -23,7 +23,7 @@ drivers for fatigue indicators such as eye closure, blinking patterns, and mouth
 
 ## How It Works
 1. **Video Capture**: The system uses a webcam to record live video of the driver.
-2. **Feature Extraction**: Key facial features (eyes and mouth) are detected and analyzed using OpenCV.
+2. **Feature Extraction**: Key facial features (eye openness and mouth movement) are detected and analyzed using OpenCV.
 3. **Prediction**: A trained CNN model determines if the driver is alert or drowsy based on these features.
 4. **Alert Mechanism**: If drowsiness is detected, an alert message/alarm is generated to warn the driver.
    
